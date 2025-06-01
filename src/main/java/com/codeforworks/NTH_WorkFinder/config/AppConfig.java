@@ -9,6 +9,6 @@ import lombok.Getter;
 @Getter
 public class AppConfig {
 
-    @Value("http://localhost:5173")
+    @Value("https://fecvhub.vercel.app/")
     private String frontendUrl;
 }
