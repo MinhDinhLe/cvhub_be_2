@@ -343,7 +343,8 @@ public class SecurityConfig {
             "http://localhost:5173",
             "http://localhost:8080",
             "ws://http://localhost:8080",
-                "https://fe123-qdj3.vercel.app"
+                "https://fe123-qdj3.vercel.app",
+                "https://fecvhub.vercel.app/"
         ));
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         configuration.setAllowCredentials(true);
