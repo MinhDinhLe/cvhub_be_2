@@ -32,7 +32,7 @@ public class PackagePermissionInitializer implements CommandLineRunner {
         createPermission("SEARCH_PRIORITY", "Ưu tiên tìm kiếm", "Độ ưu tiên hiển thị"),
         createPermission("TEST_ACCESS", "Đăng tải bài Testing", "Đăng tải bài Testing"),
         createPermission("ANALYTICS_REPORT", "Báo cáo phân tích", "Báo cáo phân tích"),
-        createPermission("SUPPORT_LEVEL", "Mức độ hỗ trợ", "Mức độ hỗ trợ")
+        createPermission("SUPPORT_LEVEL", "Mức độ hỗ trợ", "Mức 1độ hỗ trợ")
     );
 
     private static Permission createPermission(String key, String name, String description) {

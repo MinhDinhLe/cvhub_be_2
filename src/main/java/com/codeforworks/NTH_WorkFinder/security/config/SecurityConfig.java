@@ -114,8 +114,10 @@ public class SecurityConfig {
             "/api/chatroom/**",
             "/api/chatbot/**",
             "/api/payments/**",
-            "/api/candidates/{candidateId}/work-histories"
-
+            "/api/candidates/{candidateId}/work-histories",
+            "/api/job-questions/answers",
+                    "/api/job-questions:",
+                    "api/job-questions/job/${jobId}`"
     );
 
     //  QUYEN USER
