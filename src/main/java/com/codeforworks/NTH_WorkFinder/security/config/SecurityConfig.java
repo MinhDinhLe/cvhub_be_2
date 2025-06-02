@@ -346,7 +346,8 @@ public class SecurityConfig {
             "http://localhost:8080",
             "ws://http://localhost:8080",
                 "https://fe123-qdj3.vercel.app",
-                "https://fecvhub.vercel.app/"
+                "https://fecvhub.vercel.app/",
+                "https://cvhubmth-30a934eec9be.herokuapp.com"
         ));
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         configuration.setAllowCredentials(true);
